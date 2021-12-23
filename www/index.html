@@ -86,7 +86,7 @@
           showResults(results);
         })
     }
-    function update() {
+    function updatename() {
 UTdata.fetch()
 .then(function(results){
 let value = parseInt($("#update").val());
@@ -126,7 +126,7 @@ $("#display").html("update fail:" + JSON.stringify(error));
     <button class="btn" onclick="searchLevel()">Level</button>
     <button class="btn" onclick="searchLevelGT()">Level &gt;</button>
     <br>
-    <button class="btn" onclick="update()">update</button>
+    <button class="btn" onclick="updatename()">updatename</button>
 
 
 
